@@ -26,7 +26,7 @@ function openModal(el, text, title){
 	var text = (typeof text !== 'undefined') ? text : "";
 	var title = (typeof title !== 'undefined') ? title : "";
 	if(text.length){
-		el.children[1].innerHTML = text;
+		el.getElementById('modal-title').innerHTML = text;
 	}
 	if(title.length){
 		document.getElementById('modal-title').innerHTML = title;
